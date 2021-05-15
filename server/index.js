@@ -24,11 +24,24 @@ app.get("/api", async (req, res) => {
       throw new Error(`Error: ${body.error}, statusCode: ${statusCode}`);
     }
 
-    console.log(`body: ${JSON.stringify(body, null, 2)}`);
-    res.json({message: body.access_token});
+    const token = body.access_token;
+    ({ body, statusCode } = await got('https://api.spotify.com/v1/search', {
+      headers: { 'Authorization': 'Bearer ' + token },
+      searchParams: {
+        'q': 'Muse',
+        'type': 'track,artist',
+        'market': 'US',
+        'limit': 1,
+        'offset': 0
+      }
+    }));
+
+    console.log({ results: body });
+    return res.json({ message: body });
 
   } catch (err) {
-    console.error(err)
+    console.error(err.toString());
+    return res.status(400).json({ error: err.toString() });
   }
 
 });
