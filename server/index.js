@@ -12,7 +12,7 @@ const client_id = '76a038bb311f4b4184454f035224b8d0'; // Spotify client id
 const client_secret = '4352d13963614d6ba1f45f3acab7e566'; // Spotify secret
 const base64enc = Buffer.from(`${client_id}:${client_secret}`).toString('base64')
 
-app.get("/api", async (req, res) => {
+app.get("/search", async (req, res) => {
 
   try {
     var { body, statusCode } = await got.post('https://accounts.spotify.com/api/token', {
