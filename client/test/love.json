@@ -1,0 +1,1857 @@
+{
+    "albums": {
+      "href": "https://api.spotify.com/v1/search?query=love&type=album&market=US&offset=0&limit=4",
+      "items": [
+        {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02"
+              },
+              "href": "https://api.spotify.com/v1/artists/06HL4z0CvFAxyc27GXpf02",
+              "id": "06HL4z0CvFAxyc27GXpf02",
+              "name": "Taylor Swift",
+              "type": "artist",
+              "uri": "spotify:artist:06HL4z0CvFAxyc27GXpf02"
+            }
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/1NAmidJlEaVgA3MpcPFYGq"
+          },
+          "href": "https://api.spotify.com/v1/albums/1NAmidJlEaVgA3MpcPFYGq",
+          "id": "1NAmidJlEaVgA3MpcPFYGq",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b273e787cffec20aa2a396a61647",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e02e787cffec20aa2a396a61647",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d00004851e787cffec20aa2a396a61647",
+              "width": 64
+            }
+          ],
+          "name": "Lover",
+          "release_date": "2019-08-23",
+          "release_date_precision": "day",
+          "total_tracks": 18,
+          "type": "album",
+          "uri": "spotify:album:1NAmidJlEaVgA3MpcPFYGq"
+        },
+        {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/4MCBfE4596Uoi2O4DtmEMz"
+              },
+              "href": "https://api.spotify.com/v1/artists/4MCBfE4596Uoi2O4DtmEMz",
+              "id": "4MCBfE4596Uoi2O4DtmEMz",
+              "name": "Juice WRLD",
+              "type": "artist",
+              "uri": "spotify:artist:4MCBfE4596Uoi2O4DtmEMz"
+            }
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/1GYVNOzwhx1nMcIJDogSNp"
+          },
+          "href": "https://api.spotify.com/v1/albums/1GYVNOzwhx1nMcIJDogSNp",
+          "id": "1GYVNOzwhx1nMcIJDogSNp",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b273af149eb4002f65f83afc63c4",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e02af149eb4002f65f83afc63c4",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d00004851af149eb4002f65f83afc63c4",
+              "width": 64
+            }
+          ],
+          "name": "Death Race For Love",
+          "release_date": "2019-03-08",
+          "release_date_precision": "day",
+          "total_tracks": 22,
+          "type": "album",
+          "uri": "spotify:album:1GYVNOzwhx1nMcIJDogSNp"
+        },
+        {
+          "album_type": "compilation",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/3Nrfpe0tUJi4K4DXYWgMUX"
+              },
+              "href": "https://api.spotify.com/v1/artists/3Nrfpe0tUJi4K4DXYWgMUX",
+              "id": "3Nrfpe0tUJi4K4DXYWgMUX",
+              "name": "BTS",
+              "type": "artist",
+              "uri": "spotify:artist:3Nrfpe0tUJi4K4DXYWgMUX"
+            }
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/2lATw9ZAVp7ILQcOKPCPqp"
+          },
+          "href": "https://api.spotify.com/v1/albums/2lATw9ZAVp7ILQcOKPCPqp",
+          "id": "2lATw9ZAVp7ILQcOKPCPqp",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b2736feb6d9ed7891f40e9a524dd",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e026feb6d9ed7891f40e9a524dd",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d000048516feb6d9ed7891f40e9a524dd",
+              "width": 64
+            }
+          ],
+          "name": "Love Yourself 結 'Answer'",
+          "release_date": "2018-08-24",
+          "release_date_precision": "day",
+          "total_tracks": 26,
+          "type": "album",
+          "uri": "spotify:album:2lATw9ZAVp7ILQcOKPCPqp"
+        },
+        {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/2tIP7SsRs7vjIcLrU85W8J"
+              },
+              "href": "https://api.spotify.com/v1/artists/2tIP7SsRs7vjIcLrU85W8J",
+              "id": "2tIP7SsRs7vjIcLrU85W8J",
+              "name": "The Kid LAROI",
+              "type": "artist",
+              "uri": "spotify:artist:2tIP7SsRs7vjIcLrU85W8J"
+            }
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/3YjfdLdpQcVI72uKhooZst"
+          },
+          "href": "https://api.spotify.com/v1/albums/3YjfdLdpQcVI72uKhooZst",
+          "id": "3YjfdLdpQcVI72uKhooZst",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b273df16d539f508603bfb1efe02",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e02df16d539f508603bfb1efe02",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d00004851df16d539f508603bfb1efe02",
+              "width": 64
+            }
+          ],
+          "name": "F*CK LOVE (SAVAGE)",
+          "release_date": "2020-11-06",
+          "release_date_precision": "day",
+          "total_tracks": 22,
+          "type": "album",
+          "uri": "spotify:album:3YjfdLdpQcVI72uKhooZst"
+        }
+      ],
+      "limit": 4,
+      "next": "https://api.spotify.com/v1/search?query=love&type=album&market=US&offset=4&limit=4",
+      "offset": 0,
+      "previous": null,
+      "total": 20003
+    },
+    "artists": {
+      "href": "https://api.spotify.com/v1/search?query=love&type=artist&market=US&offset=0&limit=4",
+      "items": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/33tFkBLsl6f8TjKkV0uF0C"
+          },
+          "followers": {
+            "href": null,
+            "total": 271729
+          },
+          "genres": [
+            "indie pop"
+          ],
+          "href": "https://api.spotify.com/v1/artists/33tFkBLsl6f8TjKkV0uF0C",
+          "id": "33tFkBLsl6f8TjKkV0uF0C",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b2734d45507688e64ea6bfb98068",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e024d45507688e64ea6bfb98068",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d000048514d45507688e64ea6bfb98068",
+              "width": 64
+            }
+          ],
+          "name": "Lovejoy",
+          "popularity": 71,
+          "type": "artist",
+          "uri": "spotify:artist:33tFkBLsl6f8TjKkV0uF0C"
+        },
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/2y246nnP9pQT0E6v3ZMMOO"
+          },
+          "followers": {
+            "href": null,
+            "total": 906032
+          },
+          "genres": [
+            "canadian hip hop",
+            "canadian trap",
+            "dark trap",
+            "emo rap",
+            "ottawa rap",
+            "underground hip hop"
+          ],
+          "href": "https://api.spotify.com/v1/artists/2y246nnP9pQT0E6v3ZMMOO",
+          "id": "2y246nnP9pQT0E6v3ZMMOO",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/0726cd2e06e65dfc76c2e1162cea25a288ed3c39",
+              "width": 640
+            },
+            {
+              "height": 320,
+              "url": "https://i.scdn.co/image/571aaf4a4959c702103b1719c719a18194e60704",
+              "width": 320
+            },
+            {
+              "height": 160,
+              "url": "https://i.scdn.co/image/231e8104a86906a82c653eab7a3f3d5801f857fe",
+              "width": 160
+            }
+          ],
+          "name": "Night Lovell",
+          "popularity": 77,
+          "type": "artist",
+          "uri": "spotify:artist:2y246nnP9pQT0E6v3ZMMOO"
+        },
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/4KJ6jujcNPzOyhdNoiNftp"
+          },
+          "followers": {
+            "href": null,
+            "total": 312760
+          },
+          "genres": [
+            "indie pop",
+            "indie poptimism",
+            "modern alternative rock",
+            "modern rock",
+            "pop rock",
+            "rock"
+          ],
+          "href": "https://api.spotify.com/v1/artists/4KJ6jujcNPzOyhdNoiNftp",
+          "id": "4KJ6jujcNPzOyhdNoiNftp",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/b42e6ea35ce6f7767966a2fa88a625fb743d65c9",
+              "width": 640
+            },
+            {
+              "height": 320,
+              "url": "https://i.scdn.co/image/a5175378d5f13d5a9521e7b32c92c17941758558",
+              "width": 320
+            },
+            {
+              "height": 160,
+              "url": "https://i.scdn.co/image/0a63514ed240fe8aa296c5b2baad32f0d2f3cdd7",
+              "width": 160
+            }
+          ],
+          "name": "lovelytheband",
+          "popularity": 68,
+          "type": "artist",
+          "uri": "spotify:artist:4KJ6jujcNPzOyhdNoiNftp"
+        },
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/2CLVPk9FcywjClBcTvWPkT"
+          },
+          "followers": {
+            "href": null,
+            "total": 567189
+          },
+          "genres": [
+            "album rock",
+            "classic canadian rock",
+            "classic rock",
+            "glam metal",
+            "hard rock",
+            "heartland rock",
+            "mellow gold",
+            "new wave pop",
+            "rock",
+            "soft rock"
+          ],
+          "href": "https://api.spotify.com/v1/artists/2CLVPk9FcywjClBcTvWPkT",
+          "id": "2CLVPk9FcywjClBcTvWPkT",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/8ebb223be3c8653a5c0fc50618a4c8fe16c9061e",
+              "width": 640
+            },
+            {
+              "height": 320,
+              "url": "https://i.scdn.co/image/eaeb7464d631d05423925047c1c3e51c6f7ae371",
+              "width": 320
+            },
+            {
+              "height": 160,
+              "url": "https://i.scdn.co/image/50eefbb41ebd66a08f65bca2e5eaae71ec06bdd4",
+              "width": 160
+            }
+          ],
+          "name": "Loverboy",
+          "popularity": 61,
+          "type": "artist",
+          "uri": "spotify:artist:2CLVPk9FcywjClBcTvWPkT"
+        }
+      ],
+      "limit": 4,
+      "next": "https://api.spotify.com/v1/search?query=love&type=artist&market=US&offset=4&limit=4",
+      "offset": 0,
+      "previous": null,
+      "total": 14930
+    },
+    "tracks": {
+      "href": "https://api.spotify.com/v1/search?query=love&type=track&market=US&offset=0&limit=4",
+      "items": [
+        {
+          "album": {
+            "album_type": "album",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+                },
+                "href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+                "id": "0LyfQWJT6nXafLPZqxe9Of",
+                "name": "Various Artists",
+                "type": "artist",
+                "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
+              }
+            ],
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/1lZ2GpRBIfbwr7FrCa3LP8"
+            },
+            "href": "https://api.spotify.com/v1/albums/1lZ2GpRBIfbwr7FrCa3LP8",
+            "id": "1lZ2GpRBIfbwr7FrCa3LP8",
+            "images": [
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b273810b70b4bd281fbf1ed88c49",
+                "width": 640
+              },
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e02810b70b4bd281fbf1ed88c49",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d00004851810b70b4bd281fbf1ed88c49",
+                "width": 64
+              }
+            ],
+            "name": "Songs For The Summer",
+            "release_date": "2021-05-14",
+            "release_date_precision": "day",
+            "total_tracks": 30,
+            "type": "album",
+            "uri": "spotify:album:1lZ2GpRBIfbwr7FrCa3LP8"
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s"
+              },
+              "href": "https://api.spotify.com/v1/artists/1uNFoZAHBGtllmzznpCI3s",
+              "id": "1uNFoZAHBGtllmzznpCI3s",
+              "name": "Justin Bieber",
+              "type": "artist",
+              "uri": "spotify:artist:1uNFoZAHBGtllmzznpCI3s"
+            }
+          ],
+          "disc_number": 1,
+          "duration_ms": 232626,
+          "explicit": false,
+          "external_ids": {
+            "isrc": "USUM71516761"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/5tNJF3jlRUEpWZCrTfdv0x"
+          },
+          "href": "https://api.spotify.com/v1/tracks/5tNJF3jlRUEpWZCrTfdv0x",
+          "id": "5tNJF3jlRUEpWZCrTfdv0x",
+          "is_local": false,
+          "is_playable": true,
+          "name": "Love Yourself",
+          "popularity": 0,
+          "preview_url": null,
+          "track_number": 9,
+          "type": "track",
+          "uri": "spotify:track:5tNJF3jlRUEpWZCrTfdv0x"
+        },
+        {
+          "album": {
+            "album_type": "album",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/0eDvMgVFoNV3TpwtrVCoTj"
+                },
+                "href": "https://api.spotify.com/v1/artists/0eDvMgVFoNV3TpwtrVCoTj",
+                "id": "0eDvMgVFoNV3TpwtrVCoTj",
+                "name": "Pop Smoke",
+                "type": "artist",
+                "uri": "spotify:artist:0eDvMgVFoNV3TpwtrVCoTj"
+              }
+            ],
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/7e7t0MCrNDcJZsPwUKjmOc"
+            },
+            "href": "https://api.spotify.com/v1/albums/7e7t0MCrNDcJZsPwUKjmOc",
+            "id": "7e7t0MCrNDcJZsPwUKjmOc",
+            "images": [
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b27377ada0863603903f57b34369",
+                "width": 640
+              },
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e0277ada0863603903f57b34369",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d0000485177ada0863603903f57b34369",
+                "width": 64
+              }
+            ],
+            "name": "Shoot For The Stars Aim For The Moon",
+            "release_date": "2020-07-03",
+            "release_date_precision": "day",
+            "total_tracks": 19,
+            "type": "album",
+            "uri": "spotify:album:7e7t0MCrNDcJZsPwUKjmOc"
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0eDvMgVFoNV3TpwtrVCoTj"
+              },
+              "href": "https://api.spotify.com/v1/artists/0eDvMgVFoNV3TpwtrVCoTj",
+              "id": "0eDvMgVFoNV3TpwtrVCoTj",
+              "name": "Pop Smoke",
+              "type": "artist",
+              "uri": "spotify:artist:0eDvMgVFoNV3TpwtrVCoTj"
+            }
+          ],
+          "disc_number": 1,
+          "duration_ms": 160000,
+          "explicit": true,
+          "external_ids": {
+            "isrc": "USUM72013339"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/1tkg4EHVoqnhR6iFEXb60y"
+          },
+          "href": "https://api.spotify.com/v1/tracks/1tkg4EHVoqnhR6iFEXb60y",
+          "id": "1tkg4EHVoqnhR6iFEXb60y",
+          "is_local": false,
+          "is_playable": true,
+          "name": "What You Know Bout Love",
+          "popularity": 88,
+          "preview_url": null,
+          "track_number": 15,
+          "type": "track",
+          "uri": "spotify:track:1tkg4EHVoqnhR6iFEXb60y"
+        },
+        {
+          "album": {
+            "album_type": "single",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH"
+                },
+                "href": "https://api.spotify.com/v1/artists/6qqNVTkY8uBg9cP3Jd7DAH",
+                "id": "6qqNVTkY8uBg9cP3Jd7DAH",
+                "name": "Billie Eilish",
+                "type": "artist",
+                "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
+              },
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6LuN9FCkKOj5PcnpouEgny"
+                },
+                "href": "https://api.spotify.com/v1/artists/6LuN9FCkKOj5PcnpouEgny",
+                "id": "6LuN9FCkKOj5PcnpouEgny",
+                "name": "Khalid",
+                "type": "artist",
+                "uri": "spotify:artist:6LuN9FCkKOj5PcnpouEgny"
+              }
+            ],
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/2sBB17RXTamvj7Ncps15AK"
+            },
+            "href": "https://api.spotify.com/v1/albums/2sBB17RXTamvj7Ncps15AK",
+            "id": "2sBB17RXTamvj7Ncps15AK",
+            "images": [
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b2738a3f0a3ca7929dea23cd274c",
+                "width": 640
+              },
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e028a3f0a3ca7929dea23cd274c",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d000048518a3f0a3ca7929dea23cd274c",
+                "width": 64
+              }
+            ],
+            "name": "lovely (with Khalid)",
+            "release_date": "2018-04-19",
+            "release_date_precision": "day",
+            "total_tracks": 1,
+            "type": "album",
+            "uri": "spotify:album:2sBB17RXTamvj7Ncps15AK"
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH"
+              },
+              "href": "https://api.spotify.com/v1/artists/6qqNVTkY8uBg9cP3Jd7DAH",
+              "id": "6qqNVTkY8uBg9cP3Jd7DAH",
+              "name": "Billie Eilish",
+              "type": "artist",
+              "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
+            },
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/6LuN9FCkKOj5PcnpouEgny"
+              },
+              "href": "https://api.spotify.com/v1/artists/6LuN9FCkKOj5PcnpouEgny",
+              "id": "6LuN9FCkKOj5PcnpouEgny",
+              "name": "Khalid",
+              "type": "artist",
+              "uri": "spotify:artist:6LuN9FCkKOj5PcnpouEgny"
+            }
+          ],
+          "disc_number": 1,
+          "duration_ms": 200185,
+          "explicit": false,
+          "external_ids": {
+            "isrc": "USUM71804190"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/0u2P5u6lvoDfwTYjAADbn4"
+          },
+          "href": "https://api.spotify.com/v1/tracks/0u2P5u6lvoDfwTYjAADbn4",
+          "id": "0u2P5u6lvoDfwTYjAADbn4",
+          "is_local": false,
+          "is_playable": true,
+          "name": "lovely (with Khalid)",
+          "popularity": 88,
+          "preview_url": null,
+          "track_number": 1,
+          "type": "track",
+          "uri": "spotify:track:0u2P5u6lvoDfwTYjAADbn4"
+        },
+        {
+          "album": {
+            "album_type": "single",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/6TIYQ3jFPwQSRmorSezPxX"
+                },
+                "href": "https://api.spotify.com/v1/artists/6TIYQ3jFPwQSRmorSezPxX",
+                "id": "6TIYQ3jFPwQSRmorSezPxX",
+                "name": "Machine Gun Kelly",
+                "type": "artist",
+                "uri": "spotify:artist:6TIYQ3jFPwQSRmorSezPxX"
+              },
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/3M9XAM57a4qFz3v6Lq27t2"
+                },
+                "href": "https://api.spotify.com/v1/artists/3M9XAM57a4qFz3v6Lq27t2",
+                "id": "3M9XAM57a4qFz3v6Lq27t2",
+                "name": "Kellin Quinn",
+                "type": "artist",
+                "uri": "spotify:artist:3M9XAM57a4qFz3v6Lq27t2"
+              }
+            ],
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/3q4wUTOTsRASPClG5Fg3tk"
+            },
+            "href": "https://api.spotify.com/v1/albums/3q4wUTOTsRASPClG5Fg3tk",
+            "id": "3q4wUTOTsRASPClG5Fg3tk",
+            "images": [
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b2731568ddeeb672c8229f342e26",
+                "width": 640
+              },
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e021568ddeeb672c8229f342e26",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d000048511568ddeeb672c8229f342e26",
+                "width": 64
+              }
+            ],
+            "name": "love race (feat. Kellin Quinn)",
+            "release_date": "2021-04-29",
+            "release_date_precision": "day",
+            "total_tracks": 1,
+            "type": "album",
+            "uri": "spotify:album:3q4wUTOTsRASPClG5Fg3tk"
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/6TIYQ3jFPwQSRmorSezPxX"
+              },
+              "href": "https://api.spotify.com/v1/artists/6TIYQ3jFPwQSRmorSezPxX",
+              "id": "6TIYQ3jFPwQSRmorSezPxX",
+              "name": "Machine Gun Kelly",
+              "type": "artist",
+              "uri": "spotify:artist:6TIYQ3jFPwQSRmorSezPxX"
+            },
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/3M9XAM57a4qFz3v6Lq27t2"
+              },
+              "href": "https://api.spotify.com/v1/artists/3M9XAM57a4qFz3v6Lq27t2",
+              "id": "3M9XAM57a4qFz3v6Lq27t2",
+              "name": "Kellin Quinn",
+              "type": "artist",
+              "uri": "spotify:artist:3M9XAM57a4qFz3v6Lq27t2"
+            }
+          ],
+          "disc_number": 1,
+          "duration_ms": 188779,
+          "explicit": false,
+          "external_ids": {
+            "isrc": "USUM72106268"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/1F9kEuwT29fgqlovIclu81"
+          },
+          "href": "https://api.spotify.com/v1/tracks/1F9kEuwT29fgqlovIclu81",
+          "id": "1F9kEuwT29fgqlovIclu81",
+          "is_local": false,
+          "is_playable": true,
+          "name": "love race (feat. Kellin Quinn)",
+          "popularity": 80,
+          "preview_url": null,
+          "track_number": 1,
+          "type": "track",
+          "uri": "spotify:track:1F9kEuwT29fgqlovIclu81"
+        }
+      ],
+      "limit": 4,
+      "next": "https://api.spotify.com/v1/search?query=love&type=track&market=US&offset=4&limit=4",
+      "offset": 0,
+      "previous": null,
+      "total": 250003
+    },
+    "playlists": {
+      "href": "https://api.spotify.com/v1/search?query=love&type=playlist&market=US&offset=0&limit=4",
+      "items": [
+        {
+          "collaborative": false,
+          "description": "Because we all deserve great pop love songs in one playlist.",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX50QitC6Oqtn"
+          },
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX50QitC6Oqtn",
+          "id": "37i9dQZF1DX50QitC6Oqtn",
+          "images": [
+            {
+              "height": null,
+              "url": "https://i.scdn.co/image/ab67706f00000003505e19aaff29a5dc3bc2503c",
+              "width": null
+            }
+          ],
+          "name": "Love Pop",
+          "owner": {
+            "display_name": "Spotify",
+            "external_urls": {
+              "spotify": "https://open.spotify.com/user/spotify"
+            },
+            "href": "https://api.spotify.com/v1/users/spotify",
+            "id": "spotify",
+            "type": "user",
+            "uri": "spotify:user:spotify"
+          },
+          "primary_color": null,
+          "public": null,
+          "snapshot_id": "MTYyMTExMjc2MCwwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+          "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX50QitC6Oqtn/tracks",
+            "total": 100
+          },
+          "type": "playlist",
+          "uri": "spotify:playlist:37i9dQZF1DX50QitC6Oqtn"
+        },
+        {
+          "collaborative": false,
+          "description": "Some of the worlds most beautiful love songs.",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWYMvTygsLWlG"
+          },
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWYMvTygsLWlG",
+          "id": "37i9dQZF1DWYMvTygsLWlG",
+          "images": [
+            {
+              "height": null,
+              "url": "https://i.scdn.co/image/ab67706f00000003306b33f37176b84b14058bfc",
+              "width": null
+            }
+          ],
+          "name": "Love Ballads",
+          "owner": {
+            "display_name": "Spotify",
+            "external_urls": {
+              "spotify": "https://open.spotify.com/user/spotify"
+            },
+            "href": "https://api.spotify.com/v1/users/spotify",
+            "id": "spotify",
+            "type": "user",
+            "uri": "spotify:user:spotify"
+          },
+          "primary_color": null,
+          "public": null,
+          "snapshot_id": "MTYyMTExMjc1NiwwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+          "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWYMvTygsLWlG/tracks",
+            "total": 100
+          },
+          "type": "playlist",
+          "uri": "spotify:playlist:37i9dQZF1DWYMvTygsLWlG"
+        },
+        {
+          "collaborative": false,
+          "description": "The most unforgettable love songs from the 80s.",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/37i9dQZF1DXc3KygMa1OE7"
+          },
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXc3KygMa1OE7",
+          "id": "37i9dQZF1DXc3KygMa1OE7",
+          "images": [
+            {
+              "height": null,
+              "url": "https://i.scdn.co/image/ab67706f0000000323dc91cbdd250e709add304e",
+              "width": null
+            }
+          ],
+          "name": "80s Love Songs",
+          "owner": {
+            "display_name": "Spotify",
+            "external_urls": {
+              "spotify": "https://open.spotify.com/user/spotify"
+            },
+            "href": "https://api.spotify.com/v1/users/spotify",
+            "id": "spotify",
+            "type": "user",
+            "uri": "spotify:user:spotify"
+          },
+          "primary_color": null,
+          "public": null,
+          "snapshot_id": "MTYyMDc1MjEyMiwwMDAwMDAyYzAwMDAwMTc5NWM1YWMxMzUwMDAwMDE3MGM0YWMyNTBm",
+          "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXc3KygMa1OE7/tracks",
+            "total": 55
+          },
+          "type": "playlist",
+          "uri": "spotify:playlist:37i9dQZF1DXc3KygMa1OE7"
+        },
+        {
+          "collaborative": false,
+          "description": "Indie, Oldies, Alternative &amp; Pop Music; Best Ballads, Love songs &amp; Sad songs from 2021 to 90s. All you need is love❤ Try <a href=\"spotify:playlist:4XyZj0cmUqydgu2PerlZQv\">'Falling in Love'</a>  and <a href=\"spotify:playlist:7ABD15iASBIpPP5uJ5awvq\">'Sad Songs'</a>. ",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/playlist/5KbTzqKBqxQRD8OBtJTZrS"
+          },
+          "href": "https://api.spotify.com/v1/playlists/5KbTzqKBqxQRD8OBtJTZrS",
+          "id": "5KbTzqKBqxQRD8OBtJTZrS",
+          "images": [
+            {
+              "height": null,
+              "url": "https://i.scdn.co/image/ab67706c0000bebbbc99e077f9ca412829f530df",
+              "width": null
+            }
+          ],
+          "name": "Love Songs❤ (2021, 2020s, 2010s, 2000s & 90s)",
+          "owner": {
+            "display_name": "Indiemono",
+            "external_urls": {
+              "spotify": "https://open.spotify.com/user/sanik007"
+            },
+            "href": "https://api.spotify.com/v1/users/sanik007",
+            "id": "sanik007",
+            "type": "user",
+            "uri": "spotify:user:sanik007"
+          },
+          "primary_color": null,
+          "public": null,
+          "snapshot_id": "MzM1NCxmNzFjNDM0NzlkMWU0YTQzMjU3YzkxY2EzMjU3YWZmNmQxOTRkM2E3",
+          "tracks": {
+            "href": "https://api.spotify.com/v1/playlists/5KbTzqKBqxQRD8OBtJTZrS/tracks",
+            "total": 198
+          },
+          "type": "playlist",
+          "uri": "spotify:playlist:5KbTzqKBqxQRD8OBtJTZrS"
+        }
+      ],
+      "limit": 4,
+      "next": "https://api.spotify.com/v1/search?query=love&type=playlist&market=US&offset=4&limit=4",
+      "offset": 0,
+      "previous": null,
+      "total": 1903411
+    },
+    "shows": {
+      "href": "https://api.spotify.com/v1/search?query=love&type=show&market=US&offset=0&limit=4",
+      "items": [
+        {
+          "available_markets": [
+            "AD",
+            "AE",
+            "AG",
+            "AL",
+            "AM",
+            "AO",
+            "AR",
+            "AT",
+            "AU",
+            "AZ",
+            "BA",
+            "BB",
+            "BE",
+            "BF",
+            "BG",
+            "BH",
+            "BI",
+            "BJ",
+            "BN",
+            "BO",
+            "BR",
+            "BS",
+            "BT",
+            "BW",
+            "BZ",
+            "CA",
+            "CH",
+            "CI",
+            "CL",
+            "CM",
+            "CO",
+            "CR",
+            "CV",
+            "CW",
+            "CY",
+            "CZ",
+            "DE",
+            "DJ",
+            "DK",
+            "DM",
+            "DO",
+            "DZ",
+            "EC",
+            "EE",
+            "ES",
+            "FI",
+            "FJ",
+            "FM",
+            "FR",
+            "GA",
+            "GB",
+            "GD",
+            "GE",
+            "GH",
+            "GM",
+            "GN",
+            "GQ",
+            "GR",
+            "GT",
+            "GW",
+            "GY",
+            "HK",
+            "HN",
+            "HR",
+            "HT",
+            "HU",
+            "ID",
+            "IE",
+            "IL",
+            "IN",
+            "IS",
+            "IT",
+            "JM",
+            "JO",
+            "JP",
+            "KE",
+            "KH",
+            "KI",
+            "KM",
+            "KN",
+            "KW",
+            "LA",
+            "LB",
+            "LC",
+            "LI",
+            "LR",
+            "LS",
+            "LT",
+            "LU",
+            "LV",
+            "MA",
+            "MC",
+            "ME",
+            "MG",
+            "MH",
+            "MK",
+            "ML",
+            "MN",
+            "MO",
+            "MR",
+            "MT",
+            "MU",
+            "MV",
+            "MW",
+            "MX",
+            "MY",
+            "MZ",
+            "NA",
+            "NE",
+            "NG",
+            "NI",
+            "NL",
+            "NO",
+            "NP",
+            "NR",
+            "NZ",
+            "OM",
+            "PA",
+            "PE",
+            "PG",
+            "PH",
+            "PL",
+            "PS",
+            "PT",
+            "PW",
+            "PY",
+            "QA",
+            "RO",
+            "RS",
+            "RW",
+            "SB",
+            "SC",
+            "SE",
+            "SG",
+            "SI",
+            "SK",
+            "SL",
+            "SM",
+            "SN",
+            "SR",
+            "ST",
+            "SV",
+            "SZ",
+            "TD",
+            "TG",
+            "TH",
+            "TL",
+            "TN",
+            "TO",
+            "TR",
+            "TT",
+            "TV",
+            "TW",
+            "TZ",
+            "US",
+            "UY",
+            "UZ",
+            "VC",
+            "VN",
+            "VU",
+            "WS",
+            "XK",
+            "ZA",
+            "ZM",
+            "ZW"
+          ],
+          "copyrights": [],
+          "description": "Dan Savage's call-in show covers love, sex, relationships and politics with Dan's characteristic humor and pragmatism. You'll feel normal by comparison.",
+          "explicit": true,
+          "external_urls": {
+            "spotify": "https://open.spotify.com/show/55uEQazfxxZQTH2JOTg1KZ"
+          },
+          "href": "https://api.spotify.com/v1/shows/55uEQazfxxZQTH2JOTg1KZ",
+          "id": "55uEQazfxxZQTH2JOTg1KZ",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/d43a28e742063389eed7ba43e09647dcad9b224b",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/49594cdd2028b39ae1cc5a064c660dfab0e8ef59",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/d0a8de390550829574ba506ae5ea1f0b26ee61e6",
+              "width": 64
+            }
+          ],
+          "is_externally_hosted": false,
+          "languages": [
+            "en"
+          ],
+          "media_type": "audio",
+          "name": "Savage Lovecast",
+          "publisher": "Dan Savage",
+          "total_episodes": 760,
+          "type": "show",
+          "uri": "spotify:show:55uEQazfxxZQTH2JOTg1KZ"
+        },
+        {
+          "available_markets": [
+            "AD",
+            "AE",
+            "AG",
+            "AL",
+            "AM",
+            "AO",
+            "AR",
+            "AT",
+            "AU",
+            "AZ",
+            "BA",
+            "BB",
+            "BE",
+            "BF",
+            "BG",
+            "BH",
+            "BI",
+            "BJ",
+            "BN",
+            "BO",
+            "BR",
+            "BS",
+            "BT",
+            "BW",
+            "BZ",
+            "CA",
+            "CH",
+            "CI",
+            "CL",
+            "CM",
+            "CO",
+            "CR",
+            "CV",
+            "CW",
+            "CY",
+            "CZ",
+            "DE",
+            "DJ",
+            "DK",
+            "DM",
+            "DO",
+            "DZ",
+            "EC",
+            "EE",
+            "ES",
+            "FI",
+            "FJ",
+            "FM",
+            "FR",
+            "GA",
+            "GB",
+            "GD",
+            "GE",
+            "GH",
+            "GM",
+            "GN",
+            "GQ",
+            "GR",
+            "GT",
+            "GW",
+            "GY",
+            "HK",
+            "HN",
+            "HR",
+            "HT",
+            "HU",
+            "ID",
+            "IE",
+            "IL",
+            "IN",
+            "IS",
+            "IT",
+            "JM",
+            "JO",
+            "JP",
+            "KE",
+            "KH",
+            "KI",
+            "KM",
+            "KN",
+            "KW",
+            "LA",
+            "LB",
+            "LC",
+            "LI",
+            "LR",
+            "LS",
+            "LT",
+            "LU",
+            "LV",
+            "MA",
+            "MC",
+            "ME",
+            "MG",
+            "MH",
+            "MK",
+            "ML",
+            "MN",
+            "MO",
+            "MR",
+            "MT",
+            "MU",
+            "MV",
+            "MW",
+            "MX",
+            "MY",
+            "MZ",
+            "NA",
+            "NE",
+            "NG",
+            "NI",
+            "NL",
+            "NO",
+            "NP",
+            "NR",
+            "NZ",
+            "OM",
+            "PA",
+            "PE",
+            "PG",
+            "PH",
+            "PL",
+            "PS",
+            "PT",
+            "PW",
+            "PY",
+            "QA",
+            "RO",
+            "RS",
+            "RW",
+            "SB",
+            "SC",
+            "SE",
+            "SG",
+            "SI",
+            "SK",
+            "SL",
+            "SM",
+            "SN",
+            "SR",
+            "ST",
+            "SV",
+            "SZ",
+            "TD",
+            "TG",
+            "TH",
+            "TL",
+            "TN",
+            "TO",
+            "TR",
+            "TT",
+            "TV",
+            "TW",
+            "TZ",
+            "US",
+            "UY",
+            "UZ",
+            "VC",
+            "VN",
+            "VU",
+            "WS",
+            "XK",
+            "ZA",
+            "ZM",
+            "ZW"
+          ],
+          "copyrights": [],
+          "description": "A single, burning question about love and relationships, every season. Explored through stories. Hosted by Boston Globe advice columnist Meredith Goldstein.",
+          "explicit": false,
+          "external_urls": {
+            "spotify": "https://open.spotify.com/show/1iohmBNlRooIVtukKeavRa"
+          },
+          "href": "https://api.spotify.com/v1/shows/1iohmBNlRooIVtukKeavRa",
+          "id": "1iohmBNlRooIVtukKeavRa",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/38b389052e0bbafd34343a8bfee51fa87ecb31f0",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/f827bcfb07dc57ad50d4efcebcd452e707206790",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ba4716af6cc1a11ae292425e5eda5516a2971631",
+              "width": 64
+            }
+          ],
+          "is_externally_hosted": false,
+          "languages": [
+            "en"
+          ],
+          "media_type": "audio",
+          "name": "Love Letters",
+          "publisher": "The Boston Globe",
+          "total_episodes": 58,
+          "type": "show",
+          "uri": "spotify:show:1iohmBNlRooIVtukKeavRa"
+        },
+        {
+          "available_markets": [
+            "AD",
+            "AE",
+            "AG",
+            "AL",
+            "AM",
+            "AO",
+            "AR",
+            "AT",
+            "AU",
+            "AZ",
+            "BA",
+            "BB",
+            "BE",
+            "BF",
+            "BG",
+            "BH",
+            "BI",
+            "BJ",
+            "BN",
+            "BO",
+            "BR",
+            "BS",
+            "BT",
+            "BW",
+            "BZ",
+            "CA",
+            "CH",
+            "CI",
+            "CL",
+            "CM",
+            "CO",
+            "CR",
+            "CV",
+            "CW",
+            "CY",
+            "CZ",
+            "DE",
+            "DJ",
+            "DK",
+            "DM",
+            "DO",
+            "DZ",
+            "EC",
+            "EE",
+            "ES",
+            "FI",
+            "FJ",
+            "FM",
+            "FR",
+            "GA",
+            "GB",
+            "GD",
+            "GE",
+            "GH",
+            "GM",
+            "GN",
+            "GQ",
+            "GR",
+            "GT",
+            "GW",
+            "GY",
+            "HK",
+            "HN",
+            "HR",
+            "HT",
+            "HU",
+            "ID",
+            "IE",
+            "IL",
+            "IN",
+            "IS",
+            "IT",
+            "JM",
+            "JO",
+            "JP",
+            "KE",
+            "KH",
+            "KI",
+            "KM",
+            "KN",
+            "KW",
+            "LA",
+            "LB",
+            "LC",
+            "LI",
+            "LR",
+            "LS",
+            "LT",
+            "LU",
+            "LV",
+            "MA",
+            "MC",
+            "ME",
+            "MG",
+            "MH",
+            "MK",
+            "ML",
+            "MN",
+            "MO",
+            "MR",
+            "MT",
+            "MU",
+            "MV",
+            "MW",
+            "MX",
+            "MY",
+            "MZ",
+            "NA",
+            "NE",
+            "NG",
+            "NI",
+            "NL",
+            "NO",
+            "NP",
+            "NR",
+            "NZ",
+            "OM",
+            "PA",
+            "PE",
+            "PG",
+            "PH",
+            "PL",
+            "PS",
+            "PT",
+            "PW",
+            "PY",
+            "QA",
+            "RO",
+            "RS",
+            "RW",
+            "SB",
+            "SC",
+            "SE",
+            "SG",
+            "SI",
+            "SK",
+            "SL",
+            "SM",
+            "SN",
+            "SR",
+            "ST",
+            "SV",
+            "SZ",
+            "TD",
+            "TG",
+            "TH",
+            "TL",
+            "TN",
+            "TO",
+            "TR",
+            "TT",
+            "TV",
+            "TW",
+            "TZ",
+            "US",
+            "UY",
+            "UZ",
+            "VC",
+            "VN",
+            "VU",
+            "WS",
+            "XK",
+            "ZA",
+            "ZM",
+            "ZW"
+          ],
+          "copyrights": [],
+          "description": "Get coached by the World’s #1 Dating Expert for Women!  Matthew Hussey is a NY Times best-selling author, Cosmo columnist, and The Today Show’s Resident Love Expert.  In each bite-size episode of LOVE Life, you'll get practical tips you can use right away to improve all of your relationships – romantic, family, friends, career and, most importantly, the relationship you have with yourself.",
+          "explicit": false,
+          "external_urls": {
+            "spotify": "https://open.spotify.com/show/2acKIpH0hrcGl0P8sU2Avj"
+          },
+          "href": "https://api.spotify.com/v1/shows/2acKIpH0hrcGl0P8sU2Avj",
+          "id": "2acKIpH0hrcGl0P8sU2Avj",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/e87fd1c83b269b598cfbe503e5293d4cacb8d685",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/e7445233e5eed2e31a4796922ade9f5758b7a60e",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/0b0d50862db441faa0c419b6359898d7a189ce8e",
+              "width": 64
+            }
+          ],
+          "is_externally_hosted": false,
+          "languages": [
+            "en"
+          ],
+          "media_type": "audio",
+          "name": "Love Life with Matthew Hussey",
+          "publisher": "Matthew Hussey",
+          "total_episodes": 283,
+          "type": "show",
+          "uri": "spotify:show:2acKIpH0hrcGl0P8sU2Avj"
+        },
+        {
+          "available_markets": [
+            "AD",
+            "AE",
+            "AG",
+            "AL",
+            "AM",
+            "AO",
+            "AR",
+            "AT",
+            "AU",
+            "AZ",
+            "BA",
+            "BB",
+            "BE",
+            "BF",
+            "BG",
+            "BH",
+            "BI",
+            "BJ",
+            "BN",
+            "BO",
+            "BR",
+            "BS",
+            "BT",
+            "BW",
+            "BZ",
+            "CA",
+            "CH",
+            "CI",
+            "CL",
+            "CM",
+            "CO",
+            "CR",
+            "CV",
+            "CW",
+            "CY",
+            "CZ",
+            "DE",
+            "DJ",
+            "DK",
+            "DM",
+            "DO",
+            "DZ",
+            "EC",
+            "EE",
+            "ES",
+            "FI",
+            "FJ",
+            "FM",
+            "FR",
+            "GA",
+            "GB",
+            "GD",
+            "GE",
+            "GH",
+            "GM",
+            "GN",
+            "GQ",
+            "GR",
+            "GT",
+            "GW",
+            "GY",
+            "HK",
+            "HN",
+            "HR",
+            "HT",
+            "HU",
+            "ID",
+            "IE",
+            "IL",
+            "IN",
+            "IS",
+            "IT",
+            "JM",
+            "JO",
+            "JP",
+            "KE",
+            "KH",
+            "KI",
+            "KM",
+            "KN",
+            "KW",
+            "LA",
+            "LB",
+            "LC",
+            "LI",
+            "LR",
+            "LS",
+            "LT",
+            "LU",
+            "LV",
+            "MA",
+            "MC",
+            "ME",
+            "MG",
+            "MH",
+            "MK",
+            "ML",
+            "MN",
+            "MO",
+            "MR",
+            "MT",
+            "MU",
+            "MV",
+            "MW",
+            "MX",
+            "MY",
+            "MZ",
+            "NA",
+            "NE",
+            "NG",
+            "NI",
+            "NL",
+            "NO",
+            "NP",
+            "NR",
+            "NZ",
+            "OM",
+            "PA",
+            "PE",
+            "PG",
+            "PH",
+            "PL",
+            "PS",
+            "PT",
+            "PW",
+            "PY",
+            "QA",
+            "RO",
+            "RS",
+            "RW",
+            "SB",
+            "SC",
+            "SE",
+            "SG",
+            "SI",
+            "SK",
+            "SL",
+            "SM",
+            "SN",
+            "SR",
+            "ST",
+            "SV",
+            "SZ",
+            "TD",
+            "TG",
+            "TH",
+            "TL",
+            "TN",
+            "TO",
+            "TR",
+            "TT",
+            "TV",
+            "TW",
+            "TZ",
+            "US",
+            "UY",
+            "UZ",
+            "VC",
+            "VN",
+            "VU",
+            "WS",
+            "XK",
+            "ZA",
+            "ZM",
+            "ZW"
+          ],
+          "copyrights": [],
+          "description": "Hey Lover",
+          "explicit": false,
+          "external_urls": {
+            "spotify": "https://open.spotify.com/show/5vn78pz7F1X1NvUMJISAmE"
+          },
+          "href": "https://api.spotify.com/v1/shows/5vn78pz7F1X1NvUMJISAmE",
+          "id": "5vn78pz7F1X1NvUMJISAmE",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/bfa27f2e34286896d1a179d4600fbd943ee85a8c",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/f7648d87d30c96763b3a929c4c4d5b4ba31e852c",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/da710657abaf6b9c83b94f603d3d5804733674c3",
+              "width": 64
+            }
+          ],
+          "is_externally_hosted": false,
+          "languages": [
+            "en"
+          ],
+          "media_type": "audio",
+          "name": "Nirnana Podcast's - Hey Lover -",
+          "publisher": "Berkcan Cengiz",
+          "total_episodes": 1,
+          "type": "show",
+          "uri": "spotify:show:5vn78pz7F1X1NvUMJISAmE"
+        }
+      ],
+      "limit": 4,
+      "next": "https://api.spotify.com/v1/search?query=love&type=show&market=US&offset=4&limit=4",
+      "offset": 0,
+      "previous": null,
+      "total": 40000
+    },
+    "episodes": {
+      "href": "https://api.spotify.com/v1/search?query=love&type=episode&market=US&offset=0&limit=4",
+      "items": [
+        {
+          "audio_preview_url": "https://p.scdn.co/mp3-preview/0a6c81983d17890f0f27778f272820158ac69fd7",
+          "description": "Two part episode! Tim is invited over to a big tech company guy's house in Austin, Texas, plans a performance at a bitcoin conference in Miami, and has on muckraking journalist Whitney Webb to discuss their excitement about the Pope's plans for God's creation. Happy Easter! Whitney Webb's plugs https://unlimitedhangout.com/ https://rokfin.com/unlimitedhangout https://twitter.com/_whitneywebb Bonus Episodes every week: ▶▶ https://www.patreon.com/thetimdillonshow ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ SUPPORT OUR SPONSORS: 🩳 UNDERWEAR: Order with PROMO CODE Tim ▶▶ https://www.sheathunderwear.com/ 🔒 VPN: Get three months free ▶▶ https://www.expressvpn.com/timdillon 🥣 CEREAL: Use code TimDillon for free shipping! ▶▶ https://magicspoon.com/timdillon 🔵 BLUE CHEW : Use promo TD ▶▶ https://bluechew.com/ 🤖 MANSCAPED: Use code TIMD ▶▶ https://www.manscaped.com/ 👨‍🦱 HAIR LOSS: ▶▶ https://www.keeps.com/TimDillon 📦 SHIPPING: Enter code TIMDILLON ▶▶ https://www.shipstation.com/ 🎧 HEADPHONES: For 15% off! ▶▶ https://www.buyraycon.com/tim 🤳 COLOGNE AND SKINCARE: Use code TIM ▶▶ https://hawthorne.co/ 🛏️ BEDS: ▶▶ https://helixsleep.com/timdillon 🚗 INSURANCE: ▶▶ https://gabi.com/timdillon 🚬 QUIT SMOKING: Use code TIM: ▶▶ https://lucy.co ⚓ NICK DAVIS'S PODCAST (BELOW DECK) ▶▶ https://podcasts.apple.com/us/podcast/another-below-deck-podcast/id1216741721 💆THERAPY ▶▶ https://www.betterhelp.com/TIMD 📦 BOX OF AWESOME ▶▶ http://boxofawesome.com use code TIMDILLON at checkout for 20% off 💊 MASF SUPPLEMENTS ▶▶ https://masfsupplements.com/ use code TIMD for 10% OFF 🧴 DUKE CANNON DEODERANT ▶▶ https://dukecannon.com/ use code DILLON for 10% off 💍 NORTHBANDS RINGS ▶▶ https://www.northbands.com/ use promo code TIM for 20% off BITCOIN CONFERENCE ▶▶ https://b.tc/conference use code TIMDILLON for 10% off ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   𝐆𝐄𝐓 𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃: 📸 Instagram: https://www.instagram.com/timjdillon/ 🐦 Twitter: https://www.twitter.com/TimJDillon 🌍 Tim Dillon Live Dates!: http://timdilloncomedy.com/#shows 📹 Subscribe to the channel: https://www.youtube.com/channel/UC161r7ShBvMxfyzCtiSMRbg Listen on Spotify! https://open.spotify.com/show/2gRd1woKiAazAKPWPkHjds   ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬   ▶▶ Ed McMahon benavery33@gmail.com https://www.instagram.com/benaveryisgood/ https://twitter.com/benaveryisgood   ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ #TheTimDillonShow",
+          "duration_ms": 4716643,
+          "explicit": false,
+          "external_urls": {
+            "spotify": "https://open.spotify.com/episode/5Zwa6mI8jEBjIbbC9zTpGb"
+          },
+          "href": "https://api.spotify.com/v1/episodes/5Zwa6mI8jEBjIbbC9zTpGb",
+          "html_description": "",
+          "id": "5Zwa6mI8jEBjIbbC9zTpGb",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab6765630000ba8a4380dd6f6d56afdf894d9cac",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67656300005f1f4380dd6f6d56afdf894d9cac",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab6765630000f68d4380dd6f6d56afdf894d9cac",
+              "width": 64
+            }
+          ],
+          "is_externally_hosted": false,
+          "is_playable": true,
+          "language": "en",
+          "languages": [
+            "en"
+          ],
+          "name": "246 - I Love The CIA (with Whitney Webb)",
+          "release_date": "2021-04-04",
+          "release_date_precision": "day",
+          "type": "episode",
+          "uri": "spotify:episode:5Zwa6mI8jEBjIbbC9zTpGb"
+        },
+        {
+          "audio_preview_url": "https://p.scdn.co/mp3-preview/bccf94b1467fa6719561a1b21f872923a352df05",
+          "description": "Special guest Candace Opper tells Mike and Sarah how a grunge star became the protagonist in one of America's most persistent conspiracy theories. Digressions include Neil Young, protest songs and the coolest baby of the 1990s. Mike continues to mine his public school education for anatomically impossible rumors. This episode contains detailed descriptions of suicide.Pre-order Candace's book, check out her website or follow her Tweets! Support us:Subscribe on PatreonDonate on PaypalBuy cute merchWhere else to find us: Sarah's other show, Why Are Dads Mike's other show, Maintenance PhaseSupport the show (http://patreon.com/yourewrongabout)",
+          "duration_ms": 4608470,
+          "explicit": false,
+          "external_urls": {
+            "spotify": "https://open.spotify.com/episode/1KnrdgRLGTN1x411keKwL1"
+          },
+          "href": "https://api.spotify.com/v1/episodes/1KnrdgRLGTN1x411keKwL1",
+          "html_description": "",
+          "id": "1KnrdgRLGTN1x411keKwL1",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab6765630000ba8a1abc8434b0a04031e97fa293",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67656300005f1f1abc8434b0a04031e97fa293",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab6765630000f68d1abc8434b0a04031e97fa293",
+              "width": 64
+            }
+          ],
+          "is_externally_hosted": false,
+          "is_playable": true,
+          "language": "en",
+          "languages": [
+            "en"
+          ],
+          "name": "Courtney Love",
+          "release_date": "2020-06-29",
+          "release_date_precision": "day",
+          "type": "episode",
+          "uri": "spotify:episode:1KnrdgRLGTN1x411keKwL1"
+        },
+        {
+          "audio_preview_url": "https://p.scdn.co/mp3-preview/6a40bd5128e2f95ec52115eadeac9112903a281a",
+          "description": "Taylor Swift has emerged from the darkness of 'Reputation' and into the light and happy phase of 'Lover.' This is Taylor in love. Nathan and Nora talk about the singles that lead this album, some of the music that potentially inspired songs like \"Paper Rings\" and \"Death by a Thousand Cuts,\" some of Taylor's first overtly political songs like \"Miss Americana & the Heartbreak Prince,\" and what music on 'Lover' foreshadows what's to come on 'Folklore.'  Hosts: Nora Princiotti and Nathan Hubbard Learn more about your ad choices. Visit megaphone.fm/adchoices",
+          "duration_ms": 4741355,
+          "explicit": false,
+          "external_urls": {
+            "spotify": "https://open.spotify.com/episode/5Wdvz5mOjS7vD34qxCqpBU"
+          },
+          "href": "https://api.spotify.com/v1/episodes/5Wdvz5mOjS7vD34qxCqpBU",
+          "html_description": "",
+          "id": "5Wdvz5mOjS7vD34qxCqpBU",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab6765630000ba8a8d0f44858e6c09e212432a56",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67656300005f1f8d0f44858e6c09e212432a56",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab6765630000f68d8d0f44858e6c09e212432a56",
+              "width": 64
+            }
+          ],
+          "is_externally_hosted": false,
+          "is_playable": true,
+          "language": "en",
+          "languages": [
+            "en"
+          ],
+          "name": "'Lover' | Every Single Album: Taylor Swift",
+          "release_date": "2021-03-29",
+          "release_date_precision": "day",
+          "type": "episode",
+          "uri": "spotify:episode:5Wdvz5mOjS7vD34qxCqpBU"
+        },
+        {
+          "audio_preview_url": "https://p.scdn.co/mp3-preview/4ff99962b8a9a02225882c2e39eb44a61b699dad",
+          "description": "Tee comes to terms with her relationship with Sylvia.  Sources:Treatment Advocacy Center  National Institute of Mental Health  Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+          "duration_ms": 2064718,
+          "explicit": true,
+          "external_urls": {
+            "spotify": "https://open.spotify.com/episode/4Ujmsny8i1RbqDhBBdpeIa"
+          },
+          "href": "https://api.spotify.com/v1/episodes/4Ujmsny8i1RbqDhBBdpeIa",
+          "html_description": "",
+          "id": "4Ujmsny8i1RbqDhBBdpeIa",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab6765630000ba8a05a0071926595c7ce3160255",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67656300005f1f05a0071926595c7ce3160255",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab6765630000f68d05a0071926595c7ce3160255",
+              "width": 64
+            }
+          ],
+          "is_externally_hosted": false,
+          "is_playable": true,
+          "language": "en",
+          "languages": [
+            "en"
+          ],
+          "name": "7: Somebody I Love is So Sick ",
+          "release_date": "2019-09-25",
+          "release_date_precision": "day",
+          "type": "episode",
+          "uri": "spotify:episode:4Ujmsny8i1RbqDhBBdpeIa"
+        }
+      ],
+      "limit": 4,
+      "next": "https://api.spotify.com/v1/search?query=love&type=episode&market=US&offset=4&limit=4",
+      "offset": 0,
+      "previous": null,
+      "total": 50000
+    }
+  }
