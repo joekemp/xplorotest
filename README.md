@@ -17,9 +17,17 @@ Makes most sense to use node.js for backend and React for the backend because:
  1. Get the structure of the app in place.
  1. Start TDD development.
 
+## Deployment
 
+To setup with heroku:
+```bash
+npm i -g heroku
+heroku login
+heroku git:remote -a xplorotest
+git push heroku main
+```
 
-
-
-
-
+Then to deploy:
+```bash
+To deploy to heroku:
+```
