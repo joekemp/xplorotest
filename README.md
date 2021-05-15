@@ -31,3 +31,21 @@ Then to deploy:
 ```bash
 To deploy to heroku:
 ```
+
+The app is located at https://xplorotest.herokuapp.com/
+
+## Running client and server locally
+
+From inside the project root:
+```bash
+npm run build
+npm start
+```
+
+This builds the client, which the server the serves to the browser. Open `http://localhost:3001` in a browser. Note that this will not update if either the server or client changes.
+
+To have the server update on changes, use nodemon:
+```bash
+npm i -g nodemon
+nodemon server/index.js localhost 3001
+```
