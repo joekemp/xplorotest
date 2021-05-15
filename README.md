@@ -49,3 +49,9 @@ To have the server update on changes, use nodemon:
 npm i -g nodemon
 nodemon server/index.js localhost 3001
 ```
+
+## Testing
+
+The current strategy is to not implement any testing of the server at this stage. The server is currently hard coded to return the result of a fixed query. Once it supports parameters from the client, then there may be a case for ensuring that the parameters provide a well formed query to the API.
+
+TDD will be performed against a mocked server at the top level. Unit tests will be provided to test individual components.
