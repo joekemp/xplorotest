@@ -3,7 +3,7 @@ import {shallow} from 'enzyme';
 import Album from "./Album";
 import Card from 'react-bootstrap/Card';
 import SpotifyLinks from "./SpotifyLinks";
-import testAlbums from "../test/albums"
+import {albums as testAlbums} from "../test/albums"
 
 describe("Tests Album component", () => {
 

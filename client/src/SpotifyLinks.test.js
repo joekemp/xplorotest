@@ -1,7 +1,7 @@
 import React from "react";
 import {shallow} from 'enzyme';
 import SpotifyLinks from "./SpotifyLinks";
-import testAlbums from "../test/albums"
+import {albums as testAlbums} from "../test/albums"
 
 const WEB_LINK_TITLE = "Open album online";
 const SPOTIFY_LINK_TITLE = "Open album in Spotify";

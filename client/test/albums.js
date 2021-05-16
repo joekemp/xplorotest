@@ -91,4 +91,20 @@ const albums = [
   { name: "Love Yourself, BTS", data: albumBtsLoveYourself },
 ];
 
-export default albums;
+const results1 = {
+  albums: {
+    href: "https://api.spotify.com/v1/search?query=love&type=album&market=US&offset=0&limit=1",
+    items: [albumTaylorSwiftLover],
+    limit: 1,
+    next: "https://api.spotify.com/v1/search?query=love&type=album&market=US&offset=1&limit=1",
+    offset: 0,
+    previous: null,
+    total: 20003,
+  },
+};
+
+const resultsSets = [
+  { name: "Single album search", data: results1, count: 1 },
+]
+
+export { albums, resultsSets };
