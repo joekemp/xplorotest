@@ -92,19 +92,28 @@ const albums = [
 ];
 
 const results1 = {
-  albums: {
-    href: "https://api.spotify.com/v1/search?query=love&type=album&market=US&offset=0&limit=1",
-    items: [albumTaylorSwiftLover],
-    limit: 1,
-    next: "https://api.spotify.com/v1/search?query=love&type=album&market=US&offset=1&limit=1",
-    offset: 0,
-    previous: null,
-    total: 20003,
-  },
+  href: "https://api.spotify.com/v1/search?query=love&type=album&market=US&offset=0&limit=1",
+  items: [albumTaylorSwiftLover],
+  limit: 1,
+  next: "https://api.spotify.com/v1/search?query=love&type=album&market=US&offset=1&limit=1",
+  offset: 0,
+  previous: null,
+  total: 20003,
+};
+
+const results2 = {
+  href: "https://api.spotify.com/v1/search?query=love&type=album&market=US&offset=0&limit=2",
+  items: [albumTaylorSwiftLover, albumBtsLoveYourself],
+  limit: 2,
+  next: "https://api.spotify.com/v1/search?query=love&type=album&market=US&offset=2&limit=2",
+  offset: 0,
+  previous: null,
+  total: 20003,
 };
 
 const resultsSets = [
   { name: "Single album search", data: results1, count: 1 },
+  { name: "Two album search", data: results2, count: 2 },
 ]
 
 export { albums, resultsSets };

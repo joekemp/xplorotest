@@ -10,7 +10,7 @@ describe("Tests Albums component", () => {
     describe(`Using album set "${results.name}":`, () => {
 
       it("Should have the correct number of Album components", () => {
-        const wrapper = shallow(<Albums results={results.data} />);
+        const wrapper = shallow(<Albums albums={results.data} />);
         expect(wrapper.find(Album)).toHaveLength(results.count);
       });
 

@@ -16,6 +16,8 @@ const App = () => {
       .then(data => setData(data.message));
   }, []);
 
+  const albums = data && data.albums ? <Albums albums={data.albums} /> : <div>None</div>;
+
   return (
     <Container className="p-3">
 
@@ -31,7 +33,7 @@ const App = () => {
           Submit
         </Button>
       </Form>
-      <Albums results={data} />
+      {albums}
     </Container>
   );
 };
