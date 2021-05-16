@@ -3,27 +3,47 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
 export const Search = (props) => {
-  const [searchString, setSearchString] = React.useState("");
+  const [queryString, setQueryString] = React.useState("");
+  const [searchType, setSearchType] = React.useState("album");
 
   const handleSubmit = e => {
-    props.onNewSearch(searchString);
+    props.onNewSearch(queryString, searchType);
     e.preventDefault();
   };
 
-  const handleInputChange = e => {
-    setSearchString(e.target.value)
+  const handleQueryChange = e => {
+    setQueryString(e.target.value)
+  };
+
+  const handleTypeChange = e => {
+    console.log(`Type changed to ${e.target.value}`);
+    setSearchType(e.target.value)
   };
 
   return (
     <Form onSubmit={handleSubmit}>
-      <Form.Group controlId="formSearch">
+      <Form.Group controlId="formSearchQuery">
         <Form.Label>Keywords Search</Form.Label>
         <Form.Control
+          as="input"
           size="lg"
           type="text"
-          defaultValue={searchString}
-          onChange={handleInputChange}
-          placeholder="Enter search query keywords" />
+          defaultValue={queryString}
+          onChange={handleQueryChange}
+          placeholder="Enter search query keywords"
+        />
+      </Form.Group>
+      <Form.Group controlId="formSearchType">
+        <Form.Label>Type</Form.Label>
+        <Form.Control
+          as="select"
+          defaultValue={searchType}
+          onChange={handleTypeChange}
+        >
+          <option value="album">Albums</option>
+          <option value="artist">Artists</option>
+          <option value="track">Tracks</option>
+        </Form.Control>
       </Form.Group>
       <Button variant="primary" type="submit">Submit</Button>
     </Form>

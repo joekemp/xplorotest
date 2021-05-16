@@ -7,15 +7,18 @@ import Results from "./Results";
 const App = () => {
   const [results, setResults] = React.useState(null);
 
-  const performSearch = searchString => {
-    console.log(`Performing search with string "${searchString}"`);
+  const performSearch = (queryString, searchType) => {
+    console.log(`Performing search with string "${queryString}"`);
     fetch("/search", {
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json'
       },
       method: "POST",
-      body: JSON.stringify({query: searchString})
+      body: JSON.stringify({
+        query: queryString,
+        type: searchType
+      })
     })
     .then(res => res.json())
     .then(json => setResults(json.results));
