@@ -4,8 +4,8 @@ import Col from 'react-bootstrap/Col';
 import Album from "./Album.js";
 
 const Albums = (props) => {
-  if (!props || !props.albums) {
-    return <div>No results</div>
+  if (!props || !props.albums || !props.albums.total) {
+    return <div>Could not find any results.</div>
   }
 
   const albums = props.albums;
