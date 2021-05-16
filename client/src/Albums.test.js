@@ -2,73 +2,19 @@ import React from "react";
 import {shallow} from 'enzyme';
 import Albums from "./Albums";
 import Album from "./Album";
+import {resultsSets as testResultsSets} from "../test/albums"
 
 describe("Tests Albums component", () => {
 
-  it("Single album input should render 1 Album component", () => {
-    const wrapper = shallow(<Albums results={dataSingleAlbum} />);
-    expect(wrapper.find(Album)).toHaveLength(1);
+  testResultsSets.forEach(results => {
+    describe(`Using album set "${results.name}":`, () => {
+
+      it("Should have the correct number of Album components", () => {
+        const wrapper = shallow(<Albums results={results.data} />);
+        expect(wrapper.find(Album)).toHaveLength(results.count);
+      });
+
+    });
   });
 
 });
-
-
-//
-// Test input data
-//
-
-const dataSingleAlbum = {
-  albums: {
-    href: "https://api.spotify.com/v1/search?query=love&type=album&market=US&offset=0&limit=1",
-    items: [
-      {
-        album_type: "album",
-        artists: [
-          {
-            external_urls: {
-              spotify: "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02",
-            },
-            href: "https://api.spotify.com/v1/artists/06HL4z0CvFAxyc27GXpf02",
-            id: "06HL4z0CvFAxyc27GXpf02",
-            name: "Taylor Swift",
-            type: "artist",
-            uri: "spotify:artist:06HL4z0CvFAxyc27GXpf02",
-          },
-        ],
-        external_urls: {
-          spotify: "https://open.spotify.com/album/1NAmidJlEaVgA3MpcPFYGq",
-        },
-        href: "https://api.spotify.com/v1/albums/1NAmidJlEaVgA3MpcPFYGq",
-        id: "1NAmidJlEaVgA3MpcPFYGq",
-        images: [
-          {
-            height: 640,
-            url: "https://i.scdn.co/image/ab67616d0000b273e787cffec20aa2a396a61647",
-            width: 640,
-          },
-          {
-            height: 300,
-            url: "https://i.scdn.co/image/ab67616d00001e02e787cffec20aa2a396a61647",
-            width: 300,
-          },
-          {
-            height: 64,
-            url: "https://i.scdn.co/image/ab67616d00004851e787cffec20aa2a396a61647",
-            width: 64,
-          },
-        ],
-        name: "Lover",
-        release_date: "2019-08-23",
-        release_date_precision: "day",
-        total_tracks: 18,
-        type: "album",
-        uri: "spotify:album:1NAmidJlEaVgA3MpcPFYGq",
-      },
-    ],
-    limit: 1,
-    next: "https://api.spotify.com/v1/search?query=love&type=album&market=US&offset=1&limit=1",
-    offset: 0,
-    previous: null,
-    total: 20003,
-  },
-};
