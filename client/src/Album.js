@@ -1,5 +1,6 @@
 import React from "react";
 import Card from 'react-bootstrap/Card';
+import CardImage from "./CardImage";
 import SpotifyLinks from "./SpotifyLinks";
 
 export const Album = (props) => {
@@ -16,7 +17,7 @@ export const Album = (props) => {
 
   return (
     <Card>
-      <Card.Img variant="top" src={image} />
+      <CardImage item={album} />
       <Card.Body>
         <div className="float-right">{releaseYear}</div>
         <Card.Title>{title}</Card.Title>

@@ -1,8 +1,9 @@
 import React from "react";
-import {shallow} from 'enzyme';
+import {shallow, mount} from 'enzyme';
 import Album from "./Album";
 import Card from 'react-bootstrap/Card';
 import SpotifyLinks from "./SpotifyLinks";
+import CardImage from "./CardImage";
 import {albums as testAlbums} from "../test/albums"
 
 describe("Tests Album component", () => {
@@ -13,7 +14,7 @@ describe("Tests Album component", () => {
       it("contains the right number of components", () => {
         const wrapper = shallow(<Album album={album.data} />);
         expect(wrapper.find(Card)).toHaveLength(1);
-        expect(wrapper.find(Card.Img)).toHaveLength(1);
+        expect(wrapper.find(CardImage)).toHaveLength(1);
         expect(wrapper.find(Card.Body)).toHaveLength(1);
         expect(wrapper.find(Card.Title)).toHaveLength(1);
         expect(wrapper.find(Card.Subtitle)).toHaveLength(1);
@@ -21,8 +22,8 @@ describe("Tests Album component", () => {
       });
 
       it("uses correct URL for the image", () => {
-        const wrapper = shallow(<Album album={album.data} />);
-        expect(wrapper.find(Card.Img).first().props().src).toEqual(album.data.images[1].url);
+        const wrapper = mount(<Album album={album.data} />);
+        expect(wrapper.find("img").first().props().src).toEqual(album.data.images[1].url);
       });
 
       it("contains the name of the album in the card title", () => {
