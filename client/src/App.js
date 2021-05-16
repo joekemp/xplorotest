@@ -1,8 +1,8 @@
 import React from "react";
-import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import Header from "./Header";
 import Results from "./Results";
 
 const App = () => {
@@ -16,9 +16,7 @@ const App = () => {
 
   return (
     <Container className="p-3">
-      <Jumbotron>
-        <h1 className="header">Xploro Test: Using Spotify's Search API</h1>
-      </Jumbotron>
+      <Header />
       <Form>
         <Form.Group controlId="formSearch">
           <Form.Label>Keywords Search</Form.Label>
