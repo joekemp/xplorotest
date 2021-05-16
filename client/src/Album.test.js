@@ -7,7 +7,7 @@ import SpotifyLinks from "./SpotifyLinks";
 describe("Tests Album component", () => {
 
   it("contains the right number of components", () => {
-    const wrapper = shallow(<Album album={albumTaylorSwitftLover} />);
+    const wrapper = shallow(<Album album={albumTaylorSwiftLover} />);
     expect(wrapper.find(Card)).toHaveLength(1);
     expect(wrapper.find(Card.Img)).toHaveLength(1);
     expect(wrapper.find(Card.Body)).toHaveLength(1);
@@ -17,17 +17,17 @@ describe("Tests Album component", () => {
   });
 
   it("uses correct URL for the image", () => {
-    const wrapper = shallow(<Album album={albumTaylorSwitftLover} />);
+    const wrapper = shallow(<Album album={albumTaylorSwiftLover} />);
     expect(wrapper.find(Card.Img).first().props().src).toEqual("https://i.scdn.co/image/ab67616d00001e02e787cffec20aa2a396a61647");
   });
 
   it("contains the name of the album in the card title", () => {
-    const wrapper = shallow(<Album album={albumTaylorSwitftLover} />);
+    const wrapper = shallow(<Album album={albumTaylorSwiftLover} />);
     expect(wrapper.find(Card.Title).first().text()).toEqual("Lover");
   });
 
   it("contains link with name of artist in subtitle", () => {
-    const wrapper = shallow(<Album album={albumTaylorSwitftLover} />);
+    const wrapper = shallow(<Album album={albumTaylorSwiftLover} />);
     const links = wrapper.find(Card.Subtitle).first().find("a");
     expect(links).toHaveLength(1);
     const link = links.first();
@@ -36,7 +36,7 @@ describe("Tests Album component", () => {
   });
 
   it("contains the year the album was released", () => {
-    const wrapper = shallow(<Album album={albumTaylorSwitftLover} />);
+    const wrapper = shallow(<Album album={albumTaylorSwiftLover} />);
     expect(wrapper.text()).toContain("2019");
   });
 
@@ -47,7 +47,7 @@ describe("Tests Album component", () => {
 // Test input data
 //
 
-const albumTaylorSwitftLover = {
+const albumTaylorSwiftLover = {
   album_type: "album",
   artists: [
     {
