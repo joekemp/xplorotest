@@ -15,7 +15,9 @@ const client_secret = '4352d13963614d6ba1f45f3acab7e566'; // Spotify secret
 const base64enc = Buffer.from(`${client_id}:${client_secret}`).toString('base64')
 
 app.post("/search", async (req, res) => {
-  console.log(`Received query: "${req.body.query}"`);
+  const query = req.body.query;
+  const type = req.body.type;
+  console.log(`Received query: "${query}" for ${type} type`);
 
   try {
     let { body, statusCode } = await got.post('https://accounts.spotify.com/api/token', {
@@ -31,8 +33,8 @@ app.post("/search", async (req, res) => {
     ({ body, statusCode } = await got('https://api.spotify.com/v1/search', {
       headers: { 'Authorization': 'Bearer ' + token },
       searchParams: {
-        'q': req.body.query,
-        'type': 'album',
+        'q': query,
+        'type': type,
         'market': 'US',
         'limit': 50,
         'offset': 0
