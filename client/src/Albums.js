@@ -18,7 +18,6 @@ const Albums = (props) => {
 
   return (
     <>
-      <hr />
       <h3>Albums</h3>
       <Row>{albumItems}</Row>
     </>

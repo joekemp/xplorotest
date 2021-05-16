@@ -15,7 +15,7 @@ const base64enc = Buffer.from(`${client_id}:${client_secret}`).toString('base64'
 app.get("/search", async (req, res) => {
 
   try {
-    var { body, statusCode } = await got.post('https://accounts.spotify.com/api/token', {
+    let { body, statusCode } = await got.post('https://accounts.spotify.com/api/token', {
       headers: { 'Authorization': 'Basic ' + base64enc },
       form: { grant_type: 'client_credentials' },
       responseType: 'json'
@@ -29,15 +29,16 @@ app.get("/search", async (req, res) => {
       headers: { 'Authorization': 'Bearer ' + token },
       searchParams: {
         'q': 'Muse',
-        'type': 'track,artist',
+        'type': 'album',
         'market': 'US',
-        'limit': 1,
+        'limit': 50,
         'offset': 0
-      }
+      },
+      responseType: 'json'
     }));
 
     console.log({ results: body });
-    return res.json({ message: body });
+    return res.json({ results: body });
 
   } catch (err) {
     console.error(err.toString());

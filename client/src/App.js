@@ -3,24 +3,19 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-
-import "./App.css";
-import Albums from "./Albums";
+import Results from "./Results";
 
 const App = () => {
-  const [data, setData] = React.useState(null);
+  const [results, setResults] = React.useState(null);
 
   React.useEffect(() => {
     fetch("/search")
       .then(res => res.json())
-      .then(data => setData(data.message));
+      .then(json => setResults(json.results));
   }, []);
-
-  const albums = data && data.albums ? <Albums albums={data.albums} /> : <div>None</div>;
 
   return (
     <Container className="p-3">
-
       <Jumbotron>
         <h1 className="header">Xploro Test: Using Spotify's Search API</h1>
       </Jumbotron>
@@ -33,7 +28,7 @@ const App = () => {
           Submit
         </Button>
       </Form>
-      {albums}
+      <Results results={results} />
     </Container>
   );
 };
