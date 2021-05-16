@@ -3,41 +3,49 @@ import {shallow} from 'enzyme';
 import Album from "./Album";
 import Card from 'react-bootstrap/Card';
 import SpotifyLinks from "./SpotifyLinks";
+import testAlbums from "../test/albums"
 
 describe("Tests Album component", () => {
 
-  it("contains the right number of components", () => {
-    const wrapper = shallow(<Album album={albumTaylorSwiftLover} />);
-    expect(wrapper.find(Card)).toHaveLength(1);
-    expect(wrapper.find(Card.Img)).toHaveLength(1);
-    expect(wrapper.find(Card.Body)).toHaveLength(1);
-    expect(wrapper.find(Card.Title)).toHaveLength(1);
-    expect(wrapper.find(Card.Subtitle)).toHaveLength(1);
-    expect(wrapper.find(SpotifyLinks)).toHaveLength(1);
-  });
+  testAlbums.forEach(album => {
+    describe(`Using album "${album.name}":`, () => {
 
-  it("uses correct URL for the image", () => {
-    const wrapper = shallow(<Album album={albumTaylorSwiftLover} />);
-    expect(wrapper.find(Card.Img).first().props().src).toEqual("https://i.scdn.co/image/ab67616d00001e02e787cffec20aa2a396a61647");
-  });
+      it("contains the right number of components", () => {
+        const wrapper = shallow(<Album album={album.data} />);
+        expect(wrapper.find(Card)).toHaveLength(1);
+        expect(wrapper.find(Card.Img)).toHaveLength(1);
+        expect(wrapper.find(Card.Body)).toHaveLength(1);
+        expect(wrapper.find(Card.Title)).toHaveLength(1);
+        expect(wrapper.find(Card.Subtitle)).toHaveLength(1);
+        expect(wrapper.find(SpotifyLinks)).toHaveLength(1);
+      });
 
-  it("contains the name of the album in the card title", () => {
-    const wrapper = shallow(<Album album={albumTaylorSwiftLover} />);
-    expect(wrapper.find(Card.Title).first().text()).toEqual("Lover");
-  });
+      it("uses correct URL for the image", () => {
+        const wrapper = shallow(<Album album={album.data} />);
+        expect(wrapper.find(Card.Img).first().props().src).toEqual(album.data.images[1].url);
+      });
 
-  it("contains link with name of artist in subtitle", () => {
-    const wrapper = shallow(<Album album={albumTaylorSwiftLover} />);
-    const links = wrapper.find(Card.Subtitle).first().find("a");
-    expect(links).toHaveLength(1);
-    const link = links.first();
-    expect(link.text()).toEqual("Taylor Swift");
-    expect(link.props().href).toEqual("https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02");
-  });
+      it("contains the name of the album in the card title", () => {
+        const wrapper = shallow(<Album album={album.data} />);
+        expect(wrapper.find(Card.Title).first().text()).toEqual(album.data.name);
+      });
 
-  it("contains the year the album was released", () => {
-    const wrapper = shallow(<Album album={albumTaylorSwiftLover} />);
-    expect(wrapper.text()).toContain("2019");
+      it("contains link with name of artist in subtitle", () => {
+        const wrapper = shallow(<Album album={album.data} />);
+        const links = wrapper.find(Card.Subtitle).first().find("a");
+        expect(links).toHaveLength(1);
+        const link = links.first();
+        expect(link.text()).toEqual(album.data.artists[0].name);
+        expect(link.props().href).toEqual(album.data.artists[0].external_urls.spotify);
+      });
+
+      it("contains the year the album was released", () => {
+        const wrapper = shallow(<Album album={album.data} />);
+        const releaseYear = album.data.release_date.substring(0, 4);
+        expect(wrapper.text()).toContain(releaseYear);
+      });
+
+    });
   });
 
 });
