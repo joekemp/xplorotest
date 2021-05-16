@@ -6,13 +6,16 @@ const PORT = process.env.PORT || 3001;
 const app = express();
 const pwd = path.resolve();
 
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.resolve(pwd, 'client/build')));
 
 const client_id = '76a038bb311f4b4184454f035224b8d0'; // Spotify client id
 const client_secret = '4352d13963614d6ba1f45f3acab7e566'; // Spotify secret
 const base64enc = Buffer.from(`${client_id}:${client_secret}`).toString('base64')
 
-app.get("/search", async (req, res) => {
+app.post("/search", async (req, res) => {
+  console.log(`Received query: "${req.body.query}"`);
 
   try {
     let { body, statusCode } = await got.post('https://accounts.spotify.com/api/token', {
@@ -28,7 +31,7 @@ app.get("/search", async (req, res) => {
     ({ body, statusCode } = await got('https://api.spotify.com/v1/search', {
       headers: { 'Authorization': 'Bearer ' + token },
       searchParams: {
-        'q': 'Muse',
+        'q': req.body.query,
         'type': 'album',
         'market': 'US',
         'limit': 50,
