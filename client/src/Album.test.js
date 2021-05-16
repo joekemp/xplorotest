@@ -2,12 +2,18 @@ import React from "react";
 import {shallow} from 'enzyme';
 import Album from "./Album";
 import Card from 'react-bootstrap/Card';
+import SpotifyLinks from "./SpotifyLinks";
 
 describe("Tests Album component", () => {
 
-  it("Album should render in a single Card component", () => {
+  it("contains the right number of components", () => {
     const wrapper = shallow(<Album album={albumTaylorSwitftLover} />);
     expect(wrapper.find(Card)).toHaveLength(1);
+    expect(wrapper.find(Card.Img)).toHaveLength(1);
+    expect(wrapper.find(Card.Body)).toHaveLength(1);
+    expect(wrapper.find(Card.Title)).toHaveLength(1);
+    expect(wrapper.find(Card.Subtitle)).toHaveLength(1);
+    expect(wrapper.find(SpotifyLinks)).toHaveLength(1);
   });
 
 });
