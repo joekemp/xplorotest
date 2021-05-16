@@ -1,15 +1,16 @@
 import React from "react";
 
 export const SpotifyLinks = (props) => {
-  if (!props.album ||
-      !props.album.external_urls ||
-      !props.album.external_urls.spotify ||
-      !props.album.uri) {
+  const item = props.item;
+  if (!item ||
+      !item.external_urls ||
+      !item.external_urls.spotify ||
+      !item.uri) {
     return <div>Error: No album property passed into SpotifyLinks</div>
   }
 
-  const webLink = props.album.external_urls.spotify;
-  const spotifyLink = props.album.uri;
+  const webLink = item.external_urls.spotify;
+  const spotifyLink = item.uri;
 
   return (
     <div className="float-right">

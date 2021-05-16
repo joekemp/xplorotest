@@ -10,7 +10,7 @@ describe("Tests SpotifyLinks component", () => {
 
   testAlbums.forEach(album => {
     it(`should have a web link and a Spotify link to the "${album.name}" album`, () => {
-      const wrapper = shallow(<SpotifyLinks album={album.data} />);
+      const wrapper = shallow(<SpotifyLinks item={album.data} />);
       const links = wrapper.find("a");
       expect(links).toHaveLength(2);
 

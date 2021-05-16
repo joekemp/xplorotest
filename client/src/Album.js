@@ -20,7 +20,7 @@ export const Album = (props) => {
       <Card.Body>
         <div className="float-right">{releaseYear}</div>
         <Card.Title>{title}</Card.Title>
-        <SpotifyLinks album={album} />
+        <SpotifyLinks item={album} />
         <Card.Subtitle>
           <a href={artistLink}>{artistName}</a>
         </Card.Subtitle>
