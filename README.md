@@ -6,7 +6,7 @@ Produce a demo for interacting with an input form to pull data from the Spotify 
 
 ## Technologies
 
-Makes most sense to use node.js for backend and React for the backend because:
+Makes most sense to use node.js for backend and React for the frontend because:
  - Uses same language for both
  - If I deploy to a server, the solution is the easiest for the user to use as just browse to the web page. No installation required.
  - I know that Xploro use React so it's a useful thing to learn!
