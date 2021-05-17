@@ -10,7 +10,6 @@ export const Album = (props) => {
   const album = props.album;
   const title = album.name;
   const releaseYear = album.release_date.substring(0, 4);
-  const image = album.images[1].url;
   const artist = album.artists[0];
   const artistName = artist.name;
   const artistLink = artist.external_urls.spotify;
