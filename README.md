@@ -101,6 +101,8 @@ Other than TDD, I polished product would contain way more tests. It's missing en
 
 There are some obvious features missing from the site. Pagination would have been a nice feature to have been able to implement. I also think a loading animation would have been good for times when either my or Spotify's server are slow.
 
+I think it's good to have deployed the app so it can be easily tested on multiple devices. However, I would have liked to have had time to create a Dockerfile to push to Docker Hub for ease of testing locally.
+
 Obviously, I only got to implement 3 of the 6 types of Spotify entity.
 
 ### Development tools
