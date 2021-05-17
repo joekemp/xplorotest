@@ -31,15 +31,6 @@ describe("Tests Album component", () => {
         expect(wrapper.find(Card.Title).first().text()).toEqual(album.data.name);
       });
 
-      it("contains link with name of artist in subtitle", () => {
-        const wrapper = shallow(<Album album={album.data} />);
-        const links = wrapper.find(Card.Subtitle).first().find("a");
-        expect(links).toHaveLength(1);
-        const link = links.first();
-        expect(link.text()).toEqual(album.data.artists[0].name);
-        expect(link.props().href).toEqual(album.data.artists[0].external_urls.spotify);
-      });
-
       it("contains the year the album was released", () => {
         const wrapper = shallow(<Album album={album.data} />);
         const releaseYear = album.data.release_date.substring(0, 4);
