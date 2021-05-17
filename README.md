@@ -97,9 +97,9 @@ I am pleased with the responsive frontend which works nicely at different resolu
 
 I would have liked to have done more TDD. TDD does take a little longer but I believe it results in a more robust product. Ultimately time constraints forced my hand on this one.
 
-Other than TDD, I polished product would contain way more tests. It's missing end-to-end and integration tests. I am also aware that no effort has been put into testing security like XSS or DNS attacks.
+Other than TDD, a polished product would contain way more tests. It's missing end-to-end and integration tests. I am also aware that no effort has been put into testing security like XSS or DNS attacks.
 
-There are some obvious features missing from the site. Pagination would have been a nice feature to have been able to implement. I also think a loading animation would have been good for times when either my or Spotify's server are slow.
+There are some obvious features missing from the project. Pagination would have been a nice feature to have been able to implement along with text showing the total number of results and how far through you are. I also think a loading animation would have been good for times when either my or Spotify's server are slow.
 
 I think it's good to have deployed the app so it can be easily tested on multiple devices. However, I would have liked to have had time to create a Dockerfile to push to Docker Hub for ease of testing locally.
 
