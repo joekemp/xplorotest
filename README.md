@@ -58,7 +58,7 @@ npm run build
 npm start
 ```
 
-This builds the client, which the server the serves to the browser. Open `http://localhost:3001` in a browser. Note that this will not update if either the server or client changes.
+This builds the client, which the server then serves to the browser. Open `http://localhost:3001` in a browser. Note that this will not update if either the server or client change.
 
 To have the server update on changes, use nodemon:
 ```bash
