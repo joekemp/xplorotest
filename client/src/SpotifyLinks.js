@@ -14,10 +14,10 @@ export const SpotifyLinks = (props) => {
 
   return (
     <div className="float-right">
-      <a href={webLink} title="Open album online" target="_blank" rel="noreferrer">
+      <a href={webLink} title="Open online" target="_blank" rel="noreferrer">
         <img src="web.png" alt="web" className="ml-4 mr-1" />
       </a>
-      <a href={spotifyLink} title="Open album in Spotify">
+      <a href={spotifyLink} title="Open in Spotify">
         <img src="spotify.png" alt="spotify" className="mr-1 ml-1" />
       </a>
     </div>

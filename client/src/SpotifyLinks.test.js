@@ -3,8 +3,8 @@ import {shallow} from 'enzyme';
 import SpotifyLinks from "./SpotifyLinks";
 import {albums as testAlbums} from "../test/albums"
 
-const WEB_LINK_TITLE = "Open album online";
-const SPOTIFY_LINK_TITLE = "Open album in Spotify";
+const WEB_LINK_TITLE = "Open online";
+const SPOTIFY_LINK_TITLE = "Open in Spotify";
 
 describe("Tests SpotifyLinks component", () => {
 
