@@ -41,12 +41,11 @@ To setup with heroku:
 npm i -g heroku
 heroku login
 heroku git:remote -a xplorotest
-git push heroku main
 ```
 
 Then to deploy:
 ```bash
-To deploy to heroku:
+git push heroku main
 ```
 
 The app is located at https://xplorotest.herokuapp.com/
