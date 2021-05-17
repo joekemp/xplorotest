@@ -1,6 +1,7 @@
 import React from "react";
 import Albums from "./Albums";
 import Artists from "./Artists";
+import Tracks from "./Tracks";
 
 const Results = (props) => {
   let output;
@@ -10,6 +11,8 @@ const Results = (props) => {
     output = <Albums albums={props.results.albums} />;
   } else if (props.results.artists) {
     output = <Artists artists={props.results.artists} />;
+  } else if (props.results.tracks) {
+    output = <Tracks tracks={props.results.tracks} />;
   }
 
   return (
