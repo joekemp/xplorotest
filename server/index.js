@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.resolve(pwd, 'client/build')));
 
 const client_id = '76a038bb311f4b4184454f035224b8d0'; // Spotify client id
-const client_secret = '4352d13963614d6ba1f45f3acab7e566'; // Spotify secret
+const client_secret = process.env.SPOTIFY_CLIENT_SECRET; // Spotify secret
 const base64enc = Buffer.from(`${client_id}:${client_secret}`).toString('base64')
 
 app.post("/search", async (req, res) => {
