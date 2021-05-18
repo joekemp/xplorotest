@@ -6,7 +6,7 @@ Produce a demo for interacting with an input form to pull data from the Spotify 
 
 ## Technologies
 
-Makes most sense to use node.js for backend and React for the backend because:
+Makes most sense to use node.js for backend and React for the frontend because:
  - Uses same language for both
  - If I deploy to a server, the solution is the easiest for the user to use as just browse to the web page. No installation required.
  - I know that Xploro use React so it's a useful thing to learn!
@@ -41,12 +41,11 @@ To setup with heroku:
 npm i -g heroku
 heroku login
 heroku git:remote -a xplorotest
-git push heroku main
 ```
 
 Then to deploy:
 ```bash
-To deploy to heroku:
+git push heroku main
 ```
 
 The app is located at https://xplorotest.herokuapp.com/
@@ -59,7 +58,7 @@ npm run build
 npm start
 ```
 
-This builds the client, which the server the serves to the browser. Open `http://localhost:3001` in a browser. Note that this will not update if either the server or client changes.
+This builds the client, which the server then serves to the browser. Open `http://localhost:3001` in a browser. Note that this will not update if either the server or client change.
 
 To have the server update on changes, use nodemon:
 ```bash
